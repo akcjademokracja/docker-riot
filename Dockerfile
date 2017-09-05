@@ -20,7 +20,7 @@ RUN apk update \
         unzip \
         ; \
     npm install -g webpack http-server \
-    && curl -L "https://github.com/vector-im/riot-web/archive/v${VERSION}.tar.gz" -o /riot.tgz \
+    && curl -L "https://github.com/akcjademokracja/riot-web/archive/akcja.tar.gz" -o /riot.tgz \
     && tar -xv -C / -f /riot.tgz \
     && rm riot.tgz \
     && mv riot-web-* riot-web \
